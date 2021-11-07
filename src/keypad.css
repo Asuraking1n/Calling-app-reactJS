@@ -1,0 +1,110 @@
+.container{
+    
+    height:400px !important;
+    width: 357px;
+    /* position: absolute; */
+    right: 158px !important;
+    top: 43px;
+    z-index: 50;
+    background-color: #fff !important;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.phonestring{
+    display: flex;
+    justify-content: center;
+}
+.inputData{
+    /* background-color: rgb(134, 18, 18); */
+    width: 185px;
+    height: 50px;
+    padding: 10px;
+    border: none;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+    letter-spacing: 2px;
+    overflow: hidden;
+    margin-top: 10px;
+    
+  }
+
+.digits{
+    display: inline-flex;
+    min-height: 220px;
+    max-height: 220px;
+    /* background-color: aqua; */
+    max-width: 350px ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+}
+.dig{
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    /* background-color: green; */
+    color: rgba(24, 20, 20, 0.35);
+    margin-right: 40px;
+    margin-left: 40px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.dialBtn{
+    cursor: pointer;
+    /* background-color: aqua; */
+    background:  #e1eee0 ;
+
+    display:flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 125px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.phoneIcon{
+    color: green;
+    transform: rotate(90deg);
+}
+.contact{
+    position: absolute;
+    top: 20px;
+    left: -120px;
+    font-size: 35px !important;
+    color: rgba(20, 17, 17, 0.623) !important;
+
+}
+.phonebook{
+    position: absolute;
+    top: 40px;
+    right: -120px;
+    font-size: 35px !important;
+    color: rgba(20, 17, 17, 0.623);
+}
+
+
+.cancel{
+    color: rgb(255, 88, 88);
+    font-size: 40px !important;
+    position: absolute;
+    bottom:120px;
+    right:520px;
+    cursor: pointer;
+}
+.contactAdd{
+    position: absolute;
+    top: 165px;
+    right: 610px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: rgb(255, 88, 88) !important;
+
+}
